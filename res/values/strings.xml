@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to Texter!</string>
+    <string name="app_name">Texter</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LoginBtn">Login</string>
+    <string name="SignupBtn">Sign Up</string>
+    <string name="Tweet">Tweet</string>
+    <string name="nickname">Nickname</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+    <string name="gallery">From Gallery</string>
+    <string name="save">Save</string>
+</resources>

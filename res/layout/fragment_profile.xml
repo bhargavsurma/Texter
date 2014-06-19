@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <com.parse.ParseImageView
+        android:id="@+id/profilephoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" />
+
+    <TextView
+        android:id="@+id/txtnickname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/profilephoto"
+        android:layout_toRightOf="@id/profilephoto"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:text="@string/nickname" />
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnickname"
+        android:layout_toRightOf="@id/profilephoto"
+        android:inputType="text"
+        android:paddingLeft="5dip" />
+
+    <TextView
+        android:id="@+id/txtdob"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nickname"
+        android:layout_toRightOf="@id/profilephoto"
+        android:paddingLeft="5dip"
+        android:text="@string/dob" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdob"
+        android:layout_toRightOf="@id/profilephoto"
+        android:ems="10"
+        android:inputType="date"
+        android:paddingLeft="5dip" />
+
+    <ImageButton
+        android:id="@+id/photo_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilephoto"
+        android:src="@drawable/ic_action_photo" />
+
+    <Button
+        android:id="@+id/gallery_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photo_button"
+        android:text="@string/gallery" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gallery_button"
+        android:text="@string/save" />
+
+</RelativeLayout>
